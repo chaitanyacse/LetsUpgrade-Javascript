@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>day1-ass2</title>
+<h2>convert minutes to seconds..To see put press f12</h2>
+</head>
+<body>
+<script>
+function convert(input) {
+    var parts = input.split(':'),
+        minutes = +parts[0],
+        seconds = +parts[1];
+    return (minutes * 60 + seconds).toFixed(3);
+	}
+</script>
+</body>
+</html>
